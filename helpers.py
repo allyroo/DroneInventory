@@ -3,7 +3,7 @@ import secrets
 
 from flask import request, jsonify, json
 
-from drone_inventory.models import Drone, User
+from models import Drone, User
 
 
 #turn function to decorator
